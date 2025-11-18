@@ -14,7 +14,7 @@ h2 {
   text-align: center;
 }
 
-img {
+.logo {
   height: 128px; 
   width: 70px;
   margin-left: auto;
@@ -44,4 +44,59 @@ text-align: center;
 .navbar a:hover {
   background-color: white;
   color: red;
+}
+
+.formation {
+  position: relative;
+}
+
+.pitch {
+  width: 20%;
+  height: 40%;
+  z-index: 0;
+}
+
+.goalkeeper {
+  width: 4%;
+  height: 10%;
+  z-index: 10;
+  position: absolute;
+  left: 150px;
+  bottom: 60px;
+}
+
+.leftback {
+  width: 3%;
+  height: 8%;
+  z-index: 10;
+  position: absolute;
+  left: 30px;
+  bottom: 140px;
+}
+
+.leftcentreback {
+  width: 3%;
+  height: 8%;
+  z-index: 10;
+  position: absolute;
+  left: 120px;
+  bottom: 140px;
+}
+
+.rightcentreback {
+  width: 3%;
+  height: 8%;
+  z-index: 10;
+  position: absolute;
+  left: 200px;
+  bottom: 140px;
+}
+
+.rightback {
+  width: 3%;
+  height: 8%;
+  z-index: 10;
+  position: absolute;
+  left: 280px;
+  bottom: 140px;
 }
